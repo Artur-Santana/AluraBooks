@@ -1,6 +1,6 @@
 .carrosel__titulo {
     color: var(--laranja);
-    background-color:  var(--branco);
+    background-color: var(--branco);
     text-align: center;
     text-transform: uppercase;
     font-size: 18px;
@@ -12,7 +12,7 @@
 .swiper-slide img {
     width: 100%;
 
-    
+
 }
 
 .swiper-button-prev,
@@ -24,8 +24,9 @@
     position: inherit !important;
     margin: 1em 0 0.2em 0;
 
-}	
-.card{
+}
+
+.card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -40,6 +41,7 @@
 .card__descricao {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     margin-bottom: 0.5em;
     gap: 1em;
 }
@@ -48,57 +50,57 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}	
+}
 
 .card__ancora {
     background-color: var(--laranja);
     color: var(--branco);
     font-size: 16px;
     text-decoration: none;
-    padding:1em 1.8em;
+    padding: 1em 1.8em;
     font-weight: 700;
-    
-}	
+}
 
 .botoes {
     display: flex;
     justify-content: space-between;
     gap: 1em;
-}	
+}
 
-.descricao{
+.descricao {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
 
+.descricao__estrela {
+    margin: 0 0 0.5em 0;
 }
 
 .descricao__titulo {
     font-size: 16px;
     font-weight: 700;
     color: var(--laranja);
-    line-height: 21px;
-}	
+    line-height: 19px;
+}
 
 .descricao__titulo-livro {
-     color: var(--azul);
-     font-size: 18px;
+    color: var(--azul);
+    font-size: 18px;
     font-weight: 700;
     margin: 0.5em 0;
-    line-height: 21px;
-   
-}	
+    line-height: 19px;
+
+}
 
 .descricao__texto {
     color: var(--azul);
     font-size: 14px;
     font-weight: 400;
-    line-height: 21px;
+    line-height: 17px;
 }
 
 .descricao__imagem {
-width: 50%;
-height: auto;
-
-
-}	
+    width: 50%;
+    height: auto;
+}
