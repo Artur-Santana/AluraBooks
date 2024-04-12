@@ -36,3 +36,28 @@
     padding-left: 2em;
     background-position: left center; 
 }
+
+@media screen and (min-width: 1024px) {
+    .contato{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 2em;
+
+    }
+    .contato__formulario{
+        width: 35%;
+    }
+    .contato__titulo{
+        font-size: 24px;
+    }
+
+    .contato__descricao{
+        width: 30%;
+    }
+
+    .contato__input{
+        width: 100%;
+    }
+
+}

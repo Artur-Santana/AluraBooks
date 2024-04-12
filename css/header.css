@@ -72,6 +72,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .cabecalho{
+        padding: 0.5em 1em;
+    }
+
     .container__titulo, .container__titulo--negrito{
         font-family: var(--font-secundaria);
         font-size: 30px;
@@ -103,8 +107,16 @@
     .container__imagem--transparente{
         display: none;
     }
-    
+
     .cabecalho__menu-hamburguer {
+        display: none;
+    }
+
+    .opcoes__botao:checked ~ .lista__menu {
+        display: block;
+        width: auto;
+    }
+    .opcoes__botao{
         display: none;
     }
 }
