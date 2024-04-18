@@ -107,31 +107,32 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .carrosel__titulo{
+    .carrosel__titulo {
         font-size: 26px;
         padding: 2em 0 1em 0;
-        }
-    
+    }
 
-    .swiper-pagination{
+
+    .swiper-pagination {
         margin: 2.5em 0 3em 0;
     }
 
-    .swiper{
+    .swiper {
         width: 70%;
     }
 
     .swiper-button-prev,
-    .swiper-button-next{
+    .swiper-button-next {
         display: block !important;
         top: 60% !important;
     }
 
-    .card{
+    .card {
         width: 50%;
         margin: 2em auto;
     }
-    .card__ancora{
+
+    .card__ancora {
         padding: 1em 3em;
     }
 
@@ -140,42 +141,45 @@
 }
 
 @media screen and (min-width: 1728px) {
-    .carrosel__container{
+    .carrosel__container {
         display: flex;
         margin: 2.5em 20vw 2.5em 20vw;
         align-items: center;
 
     }
 
-    .swiper-pagination{
+    .swiper-pagination {
         margin: 1em 0;
     }
 
-    .swiper{
+    .swiper {
         width: 70%;
         margin: 0 5em 2em 0;
         margin-right: 5em !important;
     }
-    .card{
+
+    .card {
         width: 70%;
-        
+
     }
-    .card__ancora{
+
+    .card__ancora {
         padding: 1em 3em;
     }
-    .descricao__titulo{
+
+    .descricao__titulo {
         font-size: 32px;
         line-height: 30px;
     }
 
-    .descricao__texto{
+    .descricao__texto {
         font-size: 18px;
     }
 
-    .descricao{
+    .descricao {
         margin-right: 1em;
     }
-        
-    
+
+
 
 }
