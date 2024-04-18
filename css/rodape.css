@@ -31,6 +31,7 @@ hr{
         color: var(--cinza);
         font-family: var(--fonte-principal);
         padding: 1em;
+        text-transform: uppercase;
     }
 
     .lista-rodape__item{
@@ -45,4 +46,14 @@ hr{
         padding: 0 0.5em;
     }
     
+}
+
+@media screen and (min-width: 1728px) {
+    .rodape{
+        padding: 2em 10vw;
+    }
+
+    .lista-rodape{
+        border-left: 1px solid var(--cinza);
+    }
 }

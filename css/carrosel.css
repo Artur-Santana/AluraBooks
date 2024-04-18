@@ -75,7 +75,7 @@
 
 .descricao__estrela {
     margin: 0 0 0.5em 0;
-    width: 30%;
+    width: 70%;
 }
 
 .descricao__titulo {
@@ -136,5 +136,46 @@
     }
 
 
+
+}
+
+@media screen and (min-width: 1728px) {
+    .carrosel__container{
+        display: flex;
+        margin: 2.5em 20vw 2.5em 20vw;
+        align-items: center;
+
+    }
+
+    .swiper-pagination{
+        margin: 1em 0;
+    }
+
+    .swiper{
+        width: 70%;
+        margin: 0 5em 2em 0;
+        margin-right: 5em !important;
+    }
+    .card{
+        width: 70%;
+        
+    }
+    .card__ancora{
+        padding: 1em 3em;
+    }
+    .descricao__titulo{
+        font-size: 32px;
+        line-height: 30px;
+    }
+
+    .descricao__texto{
+        font-size: 18px;
+    }
+
+    .descricao{
+        margin-right: 1em;
+    }
+        
+    
 
 }
